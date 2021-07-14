@@ -1,0 +1,88 @@
+:root {
+  --dark-cyan: #fafbff;
+  --very-dark-desaturated: hsl(229, 24%, 35%);
+  --dark-grayish-blue: hsl(227, 19%, 52%);
+  --dark-gray: hsl(0, 0%, 59%);
+}
+
+*{box-sizing: border-box;}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: var(--dark-cyan);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  margin: 0 ;
+}
+h1{
+  letter-spacing: 3px;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+  justify-content:center;
+  margin: 0 auto;
+  max-width: 100hv;
+  
+}
+.pokemon{
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 1.0px );
+  -webkit-backdrop-filter: blur( 1.0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );  
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+.pokemon .img-container{
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  text-align: center;
+}
+.pokemon .img-container img{
+  margin-top: 20px;
+  max-width: 90%;
+}
+.pokemon .informacion{
+  margin-top: 20px;
+}
+.informacion{
+  margin-top: 20px;
+}
+.pokemon .numero{
+  background-color: #fff;
+  border-radius: 50px;
+  font-size: 0.8em;
+  padding: 5px 10px;
+  font-weight: bolder;
+}
+.pokemon .footer .nombre{
+  margin: 15px 0 7px;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-style: nomral;
+  color: rgb(0, 0, 0);
+  
+}
+#spinner {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.pagination {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
