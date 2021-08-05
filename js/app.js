@@ -1,7 +1,7 @@
 const container = document.getElementById("container");
 
 //Elegir número de pokemons a mostrar 
-const numero_de_pokemons = 33;
+const numero_de_pokemons = 54;
 
 //Colores de los pokemos
 const colors = {
@@ -50,7 +50,7 @@ function crearPokemon(pokemon) {
     pokemonDiv.style.backgroundColor = color;
     const pokeInnnerHTML = `
     <div class="img-container">
-        <img src="https://pokeres.bastionbot.org/images/pokemon/${pokemon.id}.png"/>
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemon.id}.png"/>
     </div>
     <div class="informacion">
         <h3 class="numero">${name}</h3>
